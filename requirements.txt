@@ -12,3 +12,5 @@ ciseau==1.0.1
 Cython==0.26
 marisa-trie==0.7.2
 scikit-learn
+tqdm
+h5py
