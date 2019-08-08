@@ -186,7 +186,6 @@ python3 learning/train_type.py learning/test/config.json --device cpu --faux_cud
 
 ```
 pip3 install -r requirements.txt
-pip3 install sklearn
 pip3 install wikidata_linker_utils_src/
 ```
 
