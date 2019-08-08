@@ -24,7 +24,9 @@ From: nvidia/cuda:8.0-cudnn6-runtime-ubuntu16.04
     # which are useless now.
     rm -rf /var/lib/apt/lists/*
     # Install Pipenv.
-    pip3 install pipenv \
+    pip3 install setuptools==41.0.1 \
+                 h5py==2.9.0
+                 pipenv \
                  wheel \
                  cssselect==0.9.1 \
                  epub-conversion==1.0.7 \
