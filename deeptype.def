@@ -24,24 +24,25 @@ From: nvidia/cuda:8.0-cudnn6-runtime-ubuntu16.04
     # which are useless now.
     rm -rf /var/lib/apt/lists/*
     # Install Pipenv.
-    pip3 install setuptools==41.0.1 \
+    pip3 install pipenv\
+                 setuptools==41.0.1 \
                  h5py==2.9.0
-                 pipenv \
-                 wheel \
+                 wheel==0.33.4 \
                  cssselect==0.9.1 \
                  epub-conversion==1.0.7 \
                  lxml==3.4.3 \
                  msgpack-python==0.4.8 \
-                 numpy==1.12 \
+                 numpy==1.17.0 \
                  pandas==0.15.2 \
                  progressbar2==3.6.0 \
                  requests==2.6.0 \
                  tensorflow_gpu==1.4.0 \
                  wikipedia-ner==0.0.23 \
                  ciseau==1.0.1 \
-                 Cython==0.26 \
+                 Cython==0.23.2 \
                  marisa-trie==0.7.2 \
                  scikit-learn
+                 
 
 %environment
     # Pipenv requires a certain terminal encoding.
